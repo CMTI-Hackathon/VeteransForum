@@ -1,0 +1,79 @@
+body{
+    // background-color: #DDDDDD;
+    /* background-color: #627254; */
+    /* background-color: #76885B; */
+    /* background-color: #EEEEEE; */
+    color: #627254;
+    background-color: #EEEEEE;
+}
+
+
+p{
+    text-decoration: none;
+    color: #627254;
+    cursor: pointer;
+}
+
+p:hover{
+    color: #76885B;
+}
+
+
+.body{
+    height: 100dvh;
+    width: 100dvw;
+}
+
+.header{
+    background-color: #76885B;
+    height: 10%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    // background-color: #DDDDDD;
+    background-color: #EEEEEE;
+    height: 85%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+    *{
+        margin: 10px;
+    }
+
+    #submit{
+        background-color: #627254;
+        color: #EEEEEE;
+        border-color: #EEEEEE;
+    }
+
+    #submit:hover{
+        background-color: #EEEEEE;
+        color: #627254;
+        border-color: #627254;
+    }
+
+    #name,#password, #email, #cPassword{
+        border-radius: 5px;
+        height: 25px;
+        font-size: medium;
+        border-color: #627254;
+        color: #627254;
+        background-color: #DDDDDD;
+    }
+}
+
+
+.footer{
+    margin: 0;
+    background-color: #DDDDDD;
+    height: 5%;
+}
