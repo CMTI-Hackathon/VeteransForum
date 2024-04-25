@@ -1,13 +1,10 @@
 import { useState } from 'react'
-// import './App.css'
-import Auth from './assets/Auth.jsx'
-// import './HackWeb/src/assets/scss/auth.scss'
-
+import Auth from './assets/pages/Auth.jsx'
 function App() {
 
   return (
     <>
-      <Auth text = "123"></Auth>
+      <Auth></Auth>
     </>
   )
 
